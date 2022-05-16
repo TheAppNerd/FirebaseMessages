@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA1E188928324BC400350780 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1E188828324BC400350780 /* LoginVC.swift */; };
+		FA1E188B28324BE600350780 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1E188A28324BE600350780 /* RegisterVC.swift */; };
+		FA1E188D28324C0600350780 /* PhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1E188C28324C0600350780 /* PhotoVC.swift */; };
+		FA1E188F28324C1000350780 /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1E188E28324C1000350780 /* VideoVC.swift */; };
+		FA1E189128324C2C00350780 /* NewConvoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1E189028324C2C00350780 /* NewConvoVC.swift */; };
+		FA1E189328324C3D00350780 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1E189228324C3D00350780 /* ProfileVC.swift */; };
 		FADC4371283244C600CC10FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC4370283244C600CC10FA /* AppDelegate.swift */; };
 		FADC4373283244C600CC10FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC4372283244C600CC10FA /* SceneDelegate.swift */; };
-		FADC4375283244C600CC10FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC4374283244C600CC10FA /* ViewController.swift */; };
+		FADC4375283244C600CC10FA /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC4374283244C600CC10FA /* ChatVC.swift */; };
 		FADC437A283244C700CC10FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADC4379283244C700CC10FA /* Assets.xcassets */; };
 		FADC437D283244C700CC10FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADC437B283244C700CC10FA /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA1E188828324BC400350780 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		FA1E188A28324BE600350780 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		FA1E188C28324C0600350780 /* PhotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoVC.swift; sourceTree = "<group>"; };
+		FA1E188E28324C1000350780 /* VideoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
+		FA1E189028324C2C00350780 /* NewConvoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConvoVC.swift; sourceTree = "<group>"; };
+		FA1E189228324C3D00350780 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		FADC436D283244C600CC10FA /* FirebaseMessages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseMessages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADC4370283244C600CC10FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FADC4372283244C600CC10FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FADC4374283244C600CC10FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FADC4374283244C600CC10FA /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		FADC4379283244C700CC10FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FADC437C283244C700CC10FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FADC437E283244C700CC10FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -35,6 +47,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA1E188428324A5900350780 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA1E188528324AB500350780 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FADC4374283244C600CC10FA /* ChatVC.swift */,
+				FA1E188828324BC400350780 /* LoginVC.swift */,
+				FA1E188A28324BE600350780 /* RegisterVC.swift */,
+				FA1E188C28324C0600350780 /* PhotoVC.swift */,
+				FA1E188E28324C1000350780 /* VideoVC.swift */,
+				FA1E189028324C2C00350780 /* NewConvoVC.swift */,
+				FA1E189228324C3D00350780 /* ProfileVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA1E188628324ABC00350780 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FA1E188728324B1500350780 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				FADC4370283244C600CC10FA /* AppDelegate.swift */,
+				FADC4372283244C600CC10FA /* SceneDelegate.swift */,
+				FADC4379283244C700CC10FA /* Assets.xcassets */,
+				FADC437B283244C700CC10FA /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		FADC4364283244C600CC10FA = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +105,11 @@
 		FADC436F283244C600CC10FA /* FirebaseMessages */ = {
 			isa = PBXGroup;
 			children = (
-				FADC4370283244C600CC10FA /* AppDelegate.swift */,
-				FADC4372283244C600CC10FA /* SceneDelegate.swift */,
-				FADC4374283244C600CC10FA /* ViewController.swift */,
-				FADC4379283244C700CC10FA /* Assets.xcassets */,
-				FADC437B283244C700CC10FA /* LaunchScreen.storyboard */,
 				FADC437E283244C700CC10FA /* Info.plist */,
+				FA1E188728324B1500350780 /* Support */,
+				FA1E188628324ABC00350780 /* Controller */,
+				FA1E188528324AB500350780 /* View */,
+				FA1E188428324A5900350780 /* Model */,
 			);
 			path = FirebaseMessages;
 			sourceTree = "<group>";
@@ -134,9 +184,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FADC4375283244C600CC10FA /* ViewController.swift in Sources */,
+				FADC4375283244C600CC10FA /* ChatVC.swift in Sources */,
 				FADC4371283244C600CC10FA /* AppDelegate.swift in Sources */,
+				FA1E188928324BC400350780 /* LoginVC.swift in Sources */,
+				FA1E189328324C3D00350780 /* ProfileVC.swift in Sources */,
+				FA1E189128324C2C00350780 /* NewConvoVC.swift in Sources */,
 				FADC4373283244C600CC10FA /* SceneDelegate.swift in Sources */,
+				FA1E188F28324C1000350780 /* VideoVC.swift in Sources */,
+				FA1E188B28324BE600350780 /* RegisterVC.swift in Sources */,
+				FA1E188D28324C0600350780 /* PhotoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
